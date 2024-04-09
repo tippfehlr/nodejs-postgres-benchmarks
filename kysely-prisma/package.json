@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"@types/pg": "^8.11.5",
+		"kysely": "^0.27.3",
+		"pg": "^8.11.5",
+		"prisma-kysely": "^1.8.0"
+	}
+}

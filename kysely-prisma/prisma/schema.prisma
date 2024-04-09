@@ -1,0 +1,16 @@
+generator kysely {
+  provider = "prisma-kysely"
+  output   = "../src"
+  fileName = "db.types.ts"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model activityStats {
+  guildID String @id
+  name    String
+  count   Int
+}
