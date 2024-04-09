@@ -2,7 +2,7 @@
 
 A few speed comparisons for choosing the next database library for [Activity Roles](https://github.com/tippfehlr/activity-roles).
 
-## Setups:
+## Setup:
 
 The task is to write 100 000 rows to a table and then select all of them individually.
 
@@ -16,11 +16,11 @@ model activityStats {
 
 ```
 guildID: "10554780760138179" + i
-name: "Minecraft 1.18.2" \
+name: "Minecraft 1.18.2"
 count: 1
 ```
 
-where i is the index of the row (0 - 99 999).
+where `i` is the index of the row (0 - 99 999).
 
 ## Results
 
